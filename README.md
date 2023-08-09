@@ -1,7 +1,7 @@
 🚀
 # AWS S3 File Downloader written in golang 📦
 
-![go](/s3-file-downloader/goerl/golang.png)
+![go](/goerl/golang.png)
 
 This Go project provides a simple and efficient way to download files from an Amazon S3 bucket. It leverages the AWS SDK for Go to interact with S3 and download specified files.
 
