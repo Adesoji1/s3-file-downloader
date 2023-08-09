@@ -1,7 +1,43 @@
-🚀
+🚀 #AWS S3 File Downloader
+
+This Go script allows you to download specific files from an AWS S3 bucket. It's designed to be simple and efficient, leveraging the power of the AWS SDK for Go.
+
+📦 ##Prerequisites
+
+
+-Go installed on your machine.
+-AWS credentials set up either in ~/.aws/credentials or as environment variables.
+🛠️ ## Installation
+
+1. Clone this repository:
+bash
+Copy code
+git clone <your-repo-link>
+Navigate to the directory:
+bash
+Copy code
+cd <your-repo-directory>
+Install the necessary Go packages:
+bash
+Copy code
+go mod tidy
+🚀 Usage
+Open the download_data.go file and set your desired AWS region and S3 bucket name.
+Run the script:
+bash
+Copy code
+go run download_data.go
+The files will be downloaded to the current directory.
+📜 Code Explanation
+The script starts by creating an AWS session using shared credentials or
+
+
+Certainly! Below is a markdown file that you can use as a README for your Go project. It includes a brief introduction, prerequisites, installation instructions, usage, and a code explanation.
+
+
 # AWS S3 File Downloader written in golang 📦
 
-![go](/s3-file-downloader/goerl/golang.png)
+![go](golang.png)
 
 This Go project provides a simple and efficient way to download files from an Amazon S3 bucket. It leverages the AWS SDK for Go to interact with S3 and download specified files.
 
@@ -10,11 +46,9 @@ This Go project provides a simple and efficient way to download files from an Am
 
 ## Prerequisites 📋
 
-- Go 1.20 or higher , download [here](https://go.dev/doc/install)
-- AWS account with access to S3 ,check this [repo](https://github.com/aws/aws-sdk-go/tree/main)
+- Go 1.20 or higher
+- AWS account with access to S3
 - AWS credentials configured (either through environment variables or shared credentials file)
-- AWS credentials set up either in ~/.aws/credentials or as environment variables.
-
 
 ## Installation 🛠️
 
@@ -31,16 +65,10 @@ This Go project provides a simple and efficient way to download files from an Am
    cd s3-file-downloader
    ```
 
-3. Navigate to the working directory:
-
-   ```bash
-   cd s3-file-downloader/goerl
-   ```
-
-4. Install the required dependencies:
+3. Install the required dependencies:
 
 ```bash
-   go mod init goerl
+   go mod init s3-file-downloader
    ```
 
    ```bash
