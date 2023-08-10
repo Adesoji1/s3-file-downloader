@@ -62,13 +62,13 @@ This Go project provides a simple and efficient way to download files from an Am
 2. Navigate to the project directory:
 
    ```bash
-   cd s3-file-downloader
+   cd s3-file-downloader/goerl
    ```
 
 3. Install the required dependencies:
 
 ```bash
-   go mod init s3-file-downloader
+   go mod init 
    ```
 
    ```bash
