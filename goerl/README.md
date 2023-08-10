@@ -68,7 +68,7 @@ This Go project provides a simple and efficient way to download files from an Am
 3. Install the required dependencies:
 
 ```bash
-   go mod init 
+   go mod init goerl or go mod init
    ```
 
    ```bash
