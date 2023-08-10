@@ -1,8 +1,8 @@
-🚀 #AWS S3 File Downloader
+## AWS S3 File Downloader 🚀 
 
 This Go script allows you to download specific files from an AWS S3 bucket. It's designed to be simple and efficient, leveraging the power of the AWS SDK for Go.
 
-📦 ##Prerequisites
+## Prerequisites 📦 
 
 
 -Go installed on your machine.
