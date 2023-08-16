@@ -28,11 +28,12 @@ func DownloadFromS3(aws_credentials *aws.Config, s3_getObject *s3.GetObjectInput
 	for _, file := range filenames {
 		go download(&wg, file, s3_getObject, downloader, &failedcount)
 	}
-
 	wg.Wait()
+
 	fmt.Println("----------------------------------------------------------------")
 	fmt.Printf("Total downloads: %d, Sucessful downloads: %d, failed downloads: %d", totalFiles, totalFiles-int(failedcount), int(failedcount))
 	fmt.Println("----------------------------------------------------------------")
+
 	return nil
 }
 
