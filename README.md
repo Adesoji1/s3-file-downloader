@@ -49,9 +49,9 @@ This Go project provides a simple and efficient way to download files from an Am
 
 ## Usage 🚀
 
-1. Modify the `bucketName` and `files` variables in `download_data.go` to match your S3 bucket and the files you want to download.
-
-2. Run the program:
+1. Modify the `bucketName` and `files` variables in `goerl/download_files_in_known_bucket.go` to match your S3 bucket and the files you want to download.
+2.  TO Connect to any s3bucket to download, use `https://github.com/Adesoji1/s3-file-downloader/tree/main/goerl/download_data.go` 
+3. Run the program and 🔱 the repo:
 
    ```bash
    go run download_data.go
